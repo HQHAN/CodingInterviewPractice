@@ -9,8 +9,6 @@ public class Solution {
     static String super_reduced_string(String s){
         // Complete this function
 
-        int foundIndex = -1;
-
         for(int i=0; i < s.length() - 1; i++) {
 
             if(s.charAt(i) == s.charAt(i+1)) {
